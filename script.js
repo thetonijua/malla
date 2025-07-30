@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const grid = document.getElementById("malla");
       grid.innerHTML = ""; // Limpia antes de dibujar
 
-      // Asegura que el grid use flex horizontal (si no, agrégalo al CSS)
+      // Flex horizontal (ya está en CSS, pero aquí por si acaso)
       grid.style.display = "flex";
       grid.style.gap = "1.5rem";
       grid.style.overflowX = "auto";
@@ -29,7 +29,11 @@ document.addEventListener("DOMContentLoaded", function () {
           cursos.forEach(curso => {
             const ramoDiv = document.createElement("div");
             ramoDiv.className = "ramo";
-            ramoDiv.textContent = `${curso.nombre}\n${curso.codigo} | ${curso.creditos} cr`;
+            ramoDiv.innerHTML = `
+              <span class="ramo-nombre">${curso.nombre}</span>
+              <span class="ramo-credito">${curso.creditos} créditos</span>
+              <span class="ramo-codigo">${curso.codigo}</span>
+            `;
             ramoDiv.addEventListener("click", () => {
               ramoDiv.classList.toggle("tachado");
             });
@@ -46,7 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("q").addEventListener("input", function () {
         const texto = this.value.toLowerCase();
         document.querySelectorAll('.ramo').forEach(div => {
-          div.style.display = div.textContent.toLowerCase().includes(texto) ? "block" : "none";
+          const visible = div.textContent.toLowerCase().includes(texto);
+          div.style.display = visible ? "block" : "none";
         });
       });
     })
