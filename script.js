@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ramoDiv.className = "ramo";
             ramoDiv.innerHTML = `
               <span class="ramo-nombre">${curso.nombre}</span>
-              <span class="ramo-credito">${curso.creditos} créditos</span>
+              <span class="ramo-credito">créditos: ${curso.creditos}</span>
               <span class="ramo-codigo">${curso.codigo}</span>
             `;
             ramoDiv.addEventListener("click", () => {
@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
             semestreDiv.appendChild(ramoDiv);
           });
+
 
           añoDiv.appendChild(semestreDiv);
         }
