@@ -1,0 +1,492 @@
+[
+  {
+    "id": "APU111",
+    "codigo": "APU111",
+    "nombre": "Teoría de la Organización",
+    "creditos": 4,
+    "semestre": 1,
+    "area": "Administración Pública",
+    "prerrequisitos": [],
+    "descripcion": "Introduce conceptos fundamentales sobre estructuras y funcionamiento organizacional."
+  },
+  {
+    "id": "APU112",
+    "codigo": "APU112",
+    "nombre": "Fundamentos de Ciencia Política",
+    "creditos": 6,
+    "semestre": 1,
+    "area": "Ciencia Política",
+    "prerrequisitos": [],
+    "descripcion": "Estudio de los sistemas políticos y sus elementos principales."
+  },
+  {
+    "id": "APU113",
+    "codigo": "APU113",
+    "nombre": "Nociones Generales de Derecho",
+    "creditos": 6,
+    "semestre": 1,
+    "area": "Derecho",
+    "prerrequisitos": [],
+    "descripcion": "Bases del derecho público y privado."
+  },
+  {
+    "id": "APU121",
+    "codigo": "APU121",
+    "nombre": "Teoría de la Administración",
+    "creditos": 6,
+    "semestre": 2,
+    "area": "Administración",
+    "prerrequisitos": ["APU111"],
+    "descripcion": "Estudio de teorías clásicas y modernas de administración."
+  },
+  {
+    "id": "APU122",
+    "codigo": "APU122",
+    "nombre": "Sociología",
+    "creditos": 6,
+    "semestre": 2,
+    "area": "Ciencias Sociales",
+    "prerrequisitos": [],
+    "descripcion": "Introducción a teorías y métodos sociológicos aplicados."
+  },
+  {
+    "id": "APU126",
+    "codigo": "APU126",
+    "nombre": "Tecnologías de la Información y la Comunicación Aplicadas a la Gestión",
+    "creditos": 4,
+    "semestre": 2,
+    "area": "Tecnología",
+    "prerrequisitos": [],
+    "descripcion": "Uso de herramientas digitales en procesos administrativos."
+  },
+  {
+    "id": "APU211",
+    "codigo": "APU211",
+    "nombre": "Administración Pública Chilena",
+    "creditos": 4,
+    "semestre": 3,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU212",
+    "codigo": "APU212",
+    "nombre": "Ideas e Instituciones Políticas",
+    "creditos": 6,
+    "semestre": 3,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU213",
+    "codigo": "APU213",
+    "nombre": "Derecho Administrativo I",
+    "creditos": 6,
+    "semestre": 3,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU113"]
+  },
+  {
+    "id": "APU214",
+    "codigo": "APU214",
+    "nombre": "Estadística",
+    "creditos": 6,
+    "semestre": 3,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU215",
+    "codigo": "APU215",
+    "nombre": "Gestión de Personas I",
+    "creditos": 6,
+    "semestre": 3,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU216",
+    "codigo": "APU216",
+    "nombre": "Inglés I",
+    "creditos": 4,
+    "semestre": 3,
+    "area": "Idiomas",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU221",
+    "codigo": "APU221",
+    "nombre": "Administración de Bienes y Servicios",
+    "creditos": 4,
+    "semestre": 4,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU211"]
+  },
+  {
+    "id": "APU222",
+    "codigo": "APU222",
+    "nombre": "Comunicación Pública",
+    "creditos": 4,
+    "semestre": 4,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU223",
+    "codigo": "APU223",
+    "nombre": "Derecho Administrativo II",
+    "creditos": 6,
+    "semestre": 4,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU213"]
+  },
+  {
+    "id": "APU224",
+    "codigo": "APU224",
+    "nombre": "Microeconomía",
+    "creditos": 6,
+    "semestre": 4,
+    "area": "Economía",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU225",
+    "codigo": "APU225",
+    "nombre": "Régimen Laboral en el Sector Público",
+    "creditos": 6,
+    "semestre": 4,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU226",
+    "codigo": "APU226",
+    "nombre": "Inglés II",
+    "creditos": 4,
+    "semestre": 4,
+    "area": "Idiomas",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU216"]
+  },
+  {
+    "id": "APU311",
+    "codigo": "APU311",
+    "nombre": "Administración Financiera del Estado",
+    "creditos": 6,
+    "semestre": 5,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU221"]
+  },
+  {
+    "id": "APU312",
+    "codigo": "APU312",
+    "nombre": "Contabilidad General",
+    "creditos": 6,
+    "semestre": 5,
+    "area": "Contabilidad",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU124"]
+  },
+  {
+    "id": "APU313",
+    "codigo": "APU313",
+    "nombre": "Transparencia y Probidad Administrativa",
+    "creditos": 4,
+    "semestre": 5,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU314",
+    "codigo": "APU314",
+    "nombre": "Macroeconomía",
+    "creditos": 6,
+    "semestre": 5,
+    "area": "Economía",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU224"]
+  },
+  {
+    "id": "APU315",
+    "codigo": "APU315",
+    "nombre": "Metodología de la Investigación Cuantitativa",
+    "creditos": 4,
+    "semestre": 5,
+    "area": "Metodología",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU214"]
+  },
+  {
+    "id": "APU316",
+    "codigo": "APU316",
+    "nombre": "Inglés III",
+    "creditos": 4,
+    "semestre": 5,
+    "area": "Idiomas",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU226"]
+  },
+  {
+    "id": "APU321",
+    "codigo": "APU321",
+    "nombre": "Finanzas Públicas",
+    "creditos": 6,
+    "semestre": 6,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU311"]
+  },
+  {
+    "id": "APU322",
+    "codigo": "APU322",
+    "nombre": "Contabilidad General de la Nación",
+    "creditos": 6,
+    "semestre": 6,
+    "area": "Contabilidad",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU312"]
+  },
+  {
+    "id": "APU323",
+    "codigo": "APU323",
+    "nombre": "Teoría y Métodos de la Fiscalización",
+    "creditos": 4,
+    "semestre": 6,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU324",
+    "codigo": "APU324",
+    "nombre": "Economía e Integración Internacional",
+    "creditos": 4,
+    "semestre": 6,
+    "area": "Economía",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU325",
+    "codigo": "APU325",
+    "nombre": "Metodología de la Investigación Cualitativa",
+    "creditos": 4,
+    "semestre": 6,
+    "area": "Metodología",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU315"]
+  },
+  {
+    "id": "APU326",
+    "codigo": "APU326",
+    "nombre": "Taller de Modelos de Toma de Decisión Pública",
+    "creditos": 4,
+    "semestre": 6,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU411",
+    "codigo": "APU411",
+    "nombre": "Control de la Gestión en el Sector Público",
+    "creditos": 6,
+    "semestre": 7,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU311"]
+  },
+  {
+    "id": "APU412",
+    "codigo": "APU412",
+    "nombre": "Sistemas de Información",
+    "creditos": 4,
+    "semestre": 7,
+    "area": "Tecnología",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU413",
+    "codigo": "APU413",
+    "nombre": "Derecho Internacional Público",
+    "creditos": 4,
+    "semestre": 7,
+    "area": "Derecho",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU414",
+    "codigo": "APU414",
+    "nombre": "Práctica Profesional I",
+    "creditos": 12,
+    "semestre": 7,
+    "area": "Práctica Profesional",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU421",
+    "codigo": "APU421",
+    "nombre": "Análisis Financiero",
+    "creditos": 6,
+    "semestre": 8,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU322"]
+  },
+  {
+    "id": "APU422",
+    "codigo": "APU422",
+    "nombre": "Relaciones Internacionales",
+    "creditos": 4,
+    "semestre": 8,
+    "area": "Relaciones Internacionales",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU413"]
+  },
+  {
+    "id": "APU423",
+    "codigo": "APU423",
+    "nombre": "Gerencia Pública",
+    "creditos": 6,
+    "semestre": 8,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU424",
+    "codigo": "APU424",
+    "nombre": "Gobierno y Administración Regional",
+    "creditos": 4,
+    "semestre": 8,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU322"]
+  },
+  {
+    "id": "APU425",
+    "codigo": "APU425",
+    "nombre": "Administración Municipal",
+    "creditos": 6,
+    "semestre": 8,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU415"]
+  },
+  {
+    "id": "APU426",
+    "codigo": "APU426",
+    "nombre": "Taller de Integración Sello UV II",
+    "creditos": 2,
+    "semestre": 8,
+    "area": "Formación General",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU416"]
+  },
+  {
+    "id": "APU511",
+    "codigo": "APU511",
+    "nombre": "Políticas Públicas",
+    "creditos": 6,
+    "semestre": 9,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU512",
+    "codigo": "APU512",
+    "nombre": "Taller de Negociación y Resolución de Conflictos",
+    "creditos": 4,
+    "semestre": 9,
+    "area": "Gestión Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU423"]
+  },
+  {
+    "id": "APU513",
+    "codigo": "APU513",
+    "nombre": "Práctica Profesional II",
+    "creditos": 12,
+    "semestre": 9,
+    "area": "Práctica Profesional",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU514",
+    "codigo": "APU514",
+    "nombre": "Taller de Integración Ciclo Profesional",
+    "creditos": 4,
+    "semestre": 9,
+    "area": "Formación General",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU326"]
+  },
+  {
+    "id": "APU515",
+    "codigo": "APU515",
+    "nombre": "Diseño y Formulación de Proyectos",
+    "creditos": 4,
+    "semestre": 9,
+    "area": "Administración Pública",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU421"]
+  },
+  {
+    "id": "APU516",
+    "codigo": "APU516",
+    "nombre": "Taller de Integración Sello UV III",
+    "creditos": 2,
+    "semestre": 9,
+    "area": "Formación General",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU426"]
+  },
+  {
+    "id": "APU521",
+    "codigo": "APU521",
+    "nombre": "Seminario de Título",
+    "creditos": 22,
+    "semestre": 10,
+    "area": "Titulación",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  },
+  {
+    "id": "APU522",
+    "codigo": "APU522",
+    "nombre": "Taller de Investigación Aplicada",
+    "creditos": 4,
+    "semestre": 10,
+    "area": "Investigación",
+    "color": "#4B4B4B",
+    "prerrequisitos": ["APU325"]
+  },
+  {
+    "id": "APU523",
+    "codigo": "APU523",
+    "nombre": "Asignatura Electiva",
+    "creditos": 4,
+    "semestre": 10,
+    "area": "Electivo",
+    "color": "#4B4B4B",
+    "prerrequisitos": []
+  }
+  ]
