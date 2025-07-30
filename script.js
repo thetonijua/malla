@@ -6,7 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
       const años = Math.ceil(maxSemestre / 2);
 
       const grid = document.getElementById("malla");
-      grid.innerHTML = ""; // Limpia la malla antes de dibujar
+      grid.innerHTML = ""; // Limpia antes de dibujar
+
+      // Asegura que el grid use flex horizontal (si no, agrégalo al CSS)
+      grid.style.display = "flex";
+      grid.style.gap = "1.5rem";
+      grid.style.overflowX = "auto";
 
       for (let año = 1; año <= años; año++) {
         const añoDiv = document.createElement("div");
