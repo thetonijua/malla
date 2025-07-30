@@ -66,31 +66,38 @@ body {
   line-height: 1.25em;
   position: relative;
   transition: transform 0.08s, box-shadow 0.15s;
+  width: 100%;
+  max-width: 100%;
+  word-break: break-word;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.ramo:hover {
-  box-shadow: 0 4px 20px #4B4B4B23;
-  transform: scale(1.03);
+
+.ramo .ramo-nombre {
+  font-size: 1em;
+  font-weight: 600;
+  white-space: normal;
+  word-break: break-word;
+  margin-bottom: 2px;
 }
-.ramo.tachado {
-  text-decoration: line-through;
-  opacity: 0.6;
-  filter: grayscale(0.4);
-}
+
 .ramo .ramo-credito {
   display: block;
-  font-size: 0.85em;
+  font-size: 0.80em;
   color: #ffd6d6;
   font-weight: 400;
-  margin-top: 1.5px;
-  letter-spacing: 0.2px;
+  margin-bottom: 0.5px;
 }
+
 .ramo .ramo-codigo {
   display: block;
-  font-size: 0.76em;
+  font-size: 0.72em;
   color: #fff4;
-  margin-top: 0.5px;
-  letter-spacing: 0.5px;
+  margin-top: 1.5px;
 }
+
 #malla {
   display: flex;
   gap: 1.5rem;
