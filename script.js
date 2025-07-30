@@ -2,15 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("courses.json")
     .then(response => response.json())
     .then(data => {
-      // Detecta años y semestres máximos automáticamente
       const maxSemestre = Math.max(...data.map(curso => curso.semestre));
       const años = Math.ceil(maxSemestre / 2);
 
-      const grid = document.createElement("div");
-      grid.style.display = "flex";
-      grid.style.gap = "1.5rem";
-      grid.style.overflowX = "auto";
-      grid.style.marginTop = "1.5rem";
+      const grid = document.getElementById("malla");
+      grid.innerHTML = ""; // Limpia la malla antes de dibujar
 
       for (let año = 1; año <= años; año++) {
         const añoDiv = document.createElement("div");
@@ -41,11 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
         grid.appendChild(añoDiv);
       }
 
-      // Quita la tabla si existe y agrega el grid horizontal
-      const tabla = document.getElementById("malla");
-      if (tabla) tabla.remove();
-      document.querySelector(".table-container").appendChild(grid);
-
       // Buscador
       document.getElementById("q").addEventListener("input", function () {
         const texto = this.value.toLowerCase();
@@ -53,5 +44,8 @@ document.addEventListener("DOMContentLoaded", function () {
           div.style.display = div.textContent.toLowerCase().includes(texto) ? "block" : "none";
         });
       });
+    })
+    .catch(e => {
+      document.getElementById("malla").innerHTML = "<p class='text-danger'>No se pudo cargar el archivo courses.json</p>";
     });
 });
